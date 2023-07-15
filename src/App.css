@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500&display=swap');
+
 .container{
   height: 80vh;
   display: flex;
@@ -5,9 +7,10 @@
   align-items: center;
   justify-content: center;
   color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .input-container h1{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3.5rem;
 }
 .input-container div{
@@ -28,6 +31,8 @@ span{
   border-bottom-left-radius: 3px;
 }
 .input-container input::placeholder{
+  font-family: 'Josefin Sans', sans-serif;
+
   font-size: 0.9rem;
 }
 .input-container button{
@@ -42,6 +47,8 @@ span{
   background-color: #f79080;
   border: none;
   cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 /*Res */
 .res{
@@ -63,6 +70,8 @@ span{
   cursor: pointer;
   background-color: #f79080;
   border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
 .res button.copied{
   background-color: #fff;
@@ -308,3 +317,34 @@ span{
   bottom: -144px;
   animation-delay: 71s;
 }
+
+/* Footer */
+.footbody{
+    display: flex;
+    justify-content: center;
+    background-color:transparent;    
+    padding-top: 20px;
+    color:white;    
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.heart {
+
+    color: red;
+    font-size: 20px;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+@keyframes example {
+    0%   { top:-10px;}
+    50%  { top:0px;}
+    100% { top:-10px;}
+  }
