@@ -43,7 +43,35 @@ span{
   border: none;
   cursor: pointer;
 }
+/*Res */
+.res{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.res p{
+  color: #fff;
+  border:1px solid #f79080;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
 
+.res button{
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: #f79080;
+  border: none;
+}
+.res button.copied{
+  background-color: #fff;
+  color: #f79080;
+
+}
+.noData{
+  color: #fff;
+}
 /* Background animation */
 
 @keyframes animate {
